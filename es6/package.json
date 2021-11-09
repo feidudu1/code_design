@@ -2,7 +2,7 @@
   "name": "es6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "demo-index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development"
   },
