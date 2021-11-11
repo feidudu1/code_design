@@ -18,7 +18,7 @@ module.exports = {
     port: 8880, // 端口
     proxy: {
       "/api/*": {
-        target: "http://localhost:8880",
+        target: "http://localhost:9990", // 在src/demo下面执行 npx http-server -p 9990
       },
     },
   },
